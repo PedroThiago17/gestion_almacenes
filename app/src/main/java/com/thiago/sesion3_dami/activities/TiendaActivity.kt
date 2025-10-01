@@ -30,9 +30,7 @@ class TiendaActivity : AppCompatActivity() {
             val store = stores[position]
 
             val intent = Intent(this, ProductosActivity::class.java).apply {
-                putExtra("STORE_ID", store.id)
-                putExtra("STORE_NAME", store.name)
-                putExtra("STORE_ADDRESS", store.address)
+                putExtra("STORE_OBJ", store)
             }
 
             startActivity(intent)

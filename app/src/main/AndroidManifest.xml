@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,11 +16,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sesion3DAMI">
+
+        <meta-data android:name="osmdroid.basePath" android:value="osmdroid"/>
+        <meta-data android:name="osmdroid.cachePath" android:value="osmdroid/tiles"/>
+
         <activity
             android:name=".activities.ProductosActivity"
             android:exported="false" />
         <activity
             android:name=".activities.TiendaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TiendaDetalleActivity"
             android:exported="false" />
         <activity
             android:name=".activities.LoginActivity"
