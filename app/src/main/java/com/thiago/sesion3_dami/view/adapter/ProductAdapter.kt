@@ -1,4 +1,4 @@
-package com.thiago.sesion3_dami.adapter
+package com.thiago.sesion3_dami.view.adapter
 
 import android.view.LayoutInflater
 import android.view.View

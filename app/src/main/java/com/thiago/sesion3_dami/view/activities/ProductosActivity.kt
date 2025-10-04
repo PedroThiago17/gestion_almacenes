@@ -1,4 +1,4 @@
-package com.thiago.sesion3_dami.activities
+package com.thiago.sesion3_dami.view.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,12 +6,10 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.thiago.sesion3_dami.R
-import com.thiago.sesion3_dami.adapter.ProductAdapter
+import com.thiago.sesion3_dami.view.adapter.ProductAdapter
 import com.thiago.sesion3_dami.model.Product
 import com.thiago.sesion3_dami.model.Store
 

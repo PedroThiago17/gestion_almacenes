@@ -1,16 +1,12 @@
-package com.thiago.sesion3_dami.activities
+package com.thiago.sesion3_dami.view.activities
 
 import android.os.Bundle
-import android.util.Log
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.thiago.sesion3_dami.R
-import com.thiago.sesion3_dami.fragments.MapFragment
+import com.thiago.sesion3_dami.view.fragments.MapFragment
 import com.thiago.sesion3_dami.model.Store
-import kotlin.math.log
 
 class TiendaDetalleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

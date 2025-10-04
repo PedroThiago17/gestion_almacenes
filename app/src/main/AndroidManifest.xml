@@ -21,16 +21,16 @@
         <meta-data android:name="osmdroid.cachePath" android:value="osmdroid/tiles"/>
 
         <activity
-            android:name=".activities.ProductosActivity"
+            android:name=".view.activities.ProductosActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.TiendaActivity"
+            android:name=".view.activities.TiendaActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.TiendaDetalleActivity"
+            android:name=".view.activities.TiendaDetalleActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.LoginActivity"
+            android:name=".view.activities.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

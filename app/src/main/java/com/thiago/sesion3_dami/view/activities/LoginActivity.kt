@@ -1,4 +1,4 @@
-package com.thiago.sesion3_dami.activities
+package com.thiago.sesion3_dami.view.activities
 
 import android.content.Intent
 import android.os.Bundle

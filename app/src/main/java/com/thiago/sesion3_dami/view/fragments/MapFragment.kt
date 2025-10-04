@@ -1,4 +1,4 @@
-package com.thiago.sesion3_dami.fragments
+package com.thiago.sesion3_dami.view.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -16,7 +16,8 @@ class MapFragment : Fragment() {
     private lateinit var mapView: MapView
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         Configuration.getInstance().load(requireContext(), requireContext().getSharedPreferences("osm", 0))
